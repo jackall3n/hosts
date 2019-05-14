@@ -1,0 +1,21 @@
+{
+  "name": "hosts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin" : {
+    "hosts" : "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^8.0.1",
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0",
+    "@types/inquirer": "^6.0.1",
+    "@types/shelljs": "^0.8.5",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
